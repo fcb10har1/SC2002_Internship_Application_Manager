@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding=".git/refs/heads/newclass/|.git/logs/refs/heads/newclass/" kind="src" path=""/>
+	<classpathentry kind="src" path=".git/logs/refs/heads/newclass"/>
+	<classpathentry kind="src" path=".git/refs/heads/newclass"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
