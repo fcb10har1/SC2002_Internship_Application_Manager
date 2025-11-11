@@ -1,4 +1,5 @@
-public class CareerStaff extends User {
+package EntityClass;
+public class CareerStaff extends User2 {
     private String staffDepartment;
 
     public CareerStaff(String staffId, String name, String dept) {

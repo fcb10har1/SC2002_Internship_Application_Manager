@@ -1,7 +1,8 @@
+package EntityClass;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Student extends User {
+public class Student extends User2 {
     private int yearOfStudy;
     private String major;
     private List<Application> applications;
