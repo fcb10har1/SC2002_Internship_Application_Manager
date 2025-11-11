@@ -1,3 +1,4 @@
+package EntityClass;
 public class Application {
     private Student student;
     private InternshipOpportunity target;

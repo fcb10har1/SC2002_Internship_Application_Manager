@@ -1,3 +1,4 @@
+package EntityClass;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
@@ -19,7 +20,7 @@ public class User {
             Pattern.compile("^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
 
     // ---- Constructors / factories ----
-    public User(String id, String name, String email, Role role, boolean active) {
+    public User1(String id, String name, String email, Role role, boolean active) {
         if (id == null || id.isBlank()) throw new IllegalArgumentException("id required");
         if (name == null || name.isBlank()) throw new IllegalArgumentException("name required");
         if (email == null || !EMAIL_RX.matcher(email).matches()) throw new IllegalArgumentException("invalid email");
