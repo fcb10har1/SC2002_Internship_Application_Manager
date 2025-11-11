@@ -1,5 +1,3 @@
-package EntityClass;
-
 public abstract class User2 {
     protected String userId;
     protected String name;

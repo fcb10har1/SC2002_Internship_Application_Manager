@@ -1,5 +1,3 @@
-package EntityClass;
-
 public class CareerStaff extends User {
     private String staffDepartment;
 
