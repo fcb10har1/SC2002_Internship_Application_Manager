@@ -1,5 +1,3 @@
-package EntityClass;
-
 import java.time.LocalDate;
 
 public class FilterSettings {
